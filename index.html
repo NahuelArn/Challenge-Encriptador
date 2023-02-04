@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenge Alura</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Silkscreen&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <header>
+    <img class="logo-home" src="img/Logo.png" alt="el logo" />
+  </header>
+  <main>
+    <section>
+      <textarea class="text-area-left" cols="30" rows=10 required placeholder="Ingrese el texto aqui"></textarea>
+      <div>
+        <h6 class="info">Solo letras minúsculas y sin acentos </h6>
+      </div>
+
+      <div class="botones">
+        <section>
+          <button class="boton-left"onclick="btnEncriptar()">Cifrar</button>
+          <button class="boton-right"onclick="btnDesencriptar()">Descifrar</button>
+        </section>
+      </div>
+    </section>
+    <section>
+      <textarea class="text-area-right" cols="30" rows="10"></textarea>
+      <div>
+        <button class="button-copiar"onclick="copiar()">Copiar</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
